@@ -4,32 +4,71 @@
     <!--Navbar-->
     <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <mdb-navbar-brand>
-        <a class="logo navbar-brand waves-light" mdbWavesEffect routerLink="/home"><strong>MAPP</strong></a>
+        <a class="logo navbar-brand waves-light" mdbWavesEffect routerLink="/home"><strong>UNIDIGITAL</strong></a>
       </mdb-navbar-brand>
       <links>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active waves-light" mdbWavesEffect>
-            <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" routerLink="/home">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+              Ciencias administrativas y contables<span class="caret"></span></a>
+            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Contaduría publica <mdb-icon fas icon="calculator"></mdb-icon></a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Administración de empresas <mdb-icon fas icon="business-time"></mdb-icon></a>
+            </div>
+          </li>
+          <li class="nav-item dropdown" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+              Ingenierías<span class="caret"></span></a>
+            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Ingeniería de sistemas <mdb-icon fas icon="laptop"></mdb-icon></a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Ingeniería electrónica <mdb-icon fas icon="robot"></mdb-icon></a>
+            </div>
+          </li>
+          <li class="nav-item dropdown" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+              Cursos<span class="caret"></span></a>
+            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#"> 
+                  <mdb-icon fas icon="clipboard-list"></mdb-icon> Todos los cursos de la A-Z</a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">
+                  <mdb-icon fas icon="calculator"></mdb-icon> Cursos contabilidad de la A-Z</a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">
+                  <mdb-icon fas icon="business-time"></mdb-icon> Cursos administración de la A-Z</a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">
+                  <mdb-icon fas icon="laptop"></mdb-icon> Cursos sistemas de la A-Z</a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">
+                  <mdb-icon fas icon="robot"></mdb-icon> Cursos electrónica de la A-Z</a>
+            </div>
           </li>
           <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" routerLink="/contador">Contador</a>
+            <a class="nav-link" href="#">Complementarios</a>
           </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" routerLink="/informatico">Informático</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" routerLink="/electronico">Electrónico</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" href="#">Investigador</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" href="#">Curriculum</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" href="#">Fundación</a>
-          </li>
+          <li class="nav-item dropdown" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+            Otros<span class="caret"></span></a>
+            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">""</a>
+            </div>
+        </li>
         </ul>
+        <!-- Search form -->
+        <form class="form-inline waves-light" mdbWavesEffect>
+          <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Buscar curso o carrera">
+          </div>
+          
+      </form>
+      <a ><mdb-icon fas icon="search" class="searchButton"></mdb-icon></a>
+      <a ><mdb-icon fas icon="user-circle" class="userButton"></mdb-icon></a>
       </links>
     </mdb-navbar>
   </header>
