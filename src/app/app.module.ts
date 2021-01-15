@@ -10,6 +10,7 @@ import { IntroComponent } from './componentes/intro/intro.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './componentes/home/home.component';
 import { FacebookModule } from "ngx-facebook";
+import { CarouselComponent } from './componentes/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FacebookModule } from "ngx-facebook";
     FooterComponent,
     IntroComponent,
     HomeComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
