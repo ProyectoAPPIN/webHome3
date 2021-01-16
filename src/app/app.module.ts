@@ -13,6 +13,7 @@ import { FacebookModule } from "ngx-facebook";
 import { CarouselComponent } from './componentes/carousel/carousel.component';
 import { IngSistemasComponent } from './componentes/ing-sistemas/ing-sistemas.component';
 import { CursosDestacadosComponent } from './componentes/cursos-destacados/cursos-destacados.component';
+import { ProfesoradoComponent } from './componentes/profesorado/profesorado.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CursosDestacadosComponent } from './componentes/cursos-destacados/curso
     CarouselComponent,
     IngSistemasComponent,
     CursosDestacadosComponent,
+    ProfesoradoComponent,
   ],
   imports: [
     BrowserModule,
