@@ -11,6 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './componentes/home/home.component';
 import { FacebookModule } from "ngx-facebook";
 import { CarouselComponent } from './componentes/carousel/carousel.component';
+import { IngSistemasComponent } from './componentes/ing-sistemas/ing-sistemas.component';
+import { CursosDestacadosComponent } from './componentes/cursos-destacados/cursos-destacados.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { CarouselComponent } from './componentes/carousel/carousel.component';
     IntroComponent,
     HomeComponent,
     CarouselComponent,
+    IngSistemasComponent,
+    CursosDestacadosComponent,
   ],
   imports: [
     BrowserModule,
