@@ -59,7 +59,7 @@
                 <a class="dropdown-item waves-light" mdbWavesEffect href="#">Validar certifícados</a>
             </div>
         </li>
-        </ul>
+        <li>
         <!-- Search form -->
         <form class="form-inline waves-light" mdbWavesEffect>
           <div class="md-form my-0">
@@ -67,8 +67,29 @@
           </div>
           
       </form>
+    </li>
+      <li>
       <a ><mdb-icon fas icon="search" class="searchButton"></mdb-icon></a>
-      <a ><mdb-icon fas icon="user-circle" class="userButton"></mdb-icon></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">
+        <div class="btn-group " mdbDropdown>
+          <mdb-icon fas icon="user" mdbDropdownToggle class="userButton"></mdb-icon>
+          <div class="dropdown-menu dropdown-menu-right dropdown-primary unique-color">
+            <a class="dropdown-item text-white" href="#">
+              Estudiante 
+              <mdb-icon fas icon="user-graduate"></mdb-icon>
+            </a>
+            <a class="dropdown-item text-white" href="#">
+              Ser Profesor <mdb-icon fas icon="chalkboard-teacher"></mdb-icon>
+            </a>
+            <div class="divider dropdown-divider"></div>
+            <a class="dropdown-item text-white" href="https://unidiadmin.vercel.app">Administrativo </a>
+          </div>
+        </div>
+      </a>
+    </li>
+    </ul>
       </links>
     </mdb-navbar>
   </header>

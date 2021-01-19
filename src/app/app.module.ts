@@ -14,6 +14,7 @@ import { CarouselComponent } from './componentes/carousel/carousel.component';
 import { IngSistemasComponent } from './componentes/ing-sistemas/ing-sistemas.component';
 import { CursosDestacadosComponent } from './componentes/cursos-destacados/cursos-destacados.component';
 import { ProfesoradoComponent } from './componentes/profesorado/profesorado.component';
+import { DiferenciasMercadoComponent } from './componentes/diferencias-mercado/diferencias-mercado.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ProfesoradoComponent } from './componentes/profesorado/profesorado.comp
     IngSistemasComponent,
     CursosDestacadosComponent,
     ProfesoradoComponent,
+    DiferenciasMercadoComponent,
   ],
   imports: [
     BrowserModule,
