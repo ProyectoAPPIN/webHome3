@@ -2,7 +2,7 @@
     height: 460px;
 }
 .cardCarousel{
-    max-height: 440px; 
+    height: 440px; 
     text-align: center; 
     margin-left: auto; 
     margin-right: auto;
@@ -23,3 +23,11 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
+@media only screen and (max-width: 500px) {
+    .carousel {
+        height: 800px;
+    }
+    .cardCarousel{
+        height: 800px;
+    }
+  }
