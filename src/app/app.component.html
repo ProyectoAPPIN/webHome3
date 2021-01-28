@@ -2,96 +2,46 @@
     <!-- Main navigation -->
 <header>
     <!--Navbar-->
-    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-      <mdb-navbar-brand>
-        <a class="logo navbar-brand waves-light" mdbWavesEffect routerLink="/home"><strong>UNIDIGITAL</strong></a>
-      </mdb-navbar-brand>
-      <links>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active waves-light" mdbWavesEffect>
-            <a class="nav-link" routerLink="/home">Inicio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown" dropdown>
-            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-              Ciencias administrativas y contables<span class="caret"></span></a>
-            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary peach-gradient" role="menu">
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Contaduría publica <mdb-icon fas icon="calculator"></mdb-icon></a>
-                <div class="divider dropdown-divider"></div>
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Administración de empresas <mdb-icon fas icon="business-time"></mdb-icon></a>
-            </div>
-          </li>
-          <li class="nav-item dropdown" dropdown>
-            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-              Ingenierías<span class="caret"></span></a>
-            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary aqua-gradient" role="menu">
-                <a class="dropdown-item waves-light" mdbWavesEffect href="https://ing-sistemas-unidigital.vercel.app">Ingeniería de sistemas <mdb-icon fas icon="laptop"></mdb-icon></a>
-                <div class="divider dropdown-divider"></div>
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Ingeniería electrónica <mdb-icon fas icon="robot"></mdb-icon></a>
-            </div>
-          </li>
-          <li class="nav-item dropdown" dropdown>
-            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-              Cursos<span class="caret"></span></a>
-            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary purple-gradient" role="menu">
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#"> 
-                  <mdb-icon fas icon="clipboard-list"></mdb-icon> Todos los cursos de la A-Z</a>
-                <div class="divider dropdown-divider"></div>
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#">
-                  <mdb-icon fas icon="calculator"></mdb-icon> Cursos contabilidad de la A-Z</a>
-                <div class="divider dropdown-divider"></div>
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#">
-                  <mdb-icon fas icon="business-time"></mdb-icon> Cursos administración de la A-Z</a>
-                <div class="divider dropdown-divider"></div>
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#">
-                  <mdb-icon fas icon="laptop"></mdb-icon> Cursos sistemas de la A-Z</a>
-                <div class="divider dropdown-divider"></div>
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#">
-                  <mdb-icon fas icon="robot"></mdb-icon> Cursos electrónica de la A-Z</a>
-            </div>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" href="#">Complementarios</a>
-          </li>
-          <li class="nav-item dropdown" dropdown>
-            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-            Otros<span class="caret"></span></a>
-            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary blue-gradient" role="menu">
-                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Validar certifícados</a>
-            </div>
-        </li>
-        <li>
-        <!-- Search form -->
-        <form class="form-inline waves-light" mdbWavesEffect>
-          <div class="md-form my-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Buscar curso o carrera">
-          </div>
-          
-      </form>
-    </li>
-      <li>
-      <a ><mdb-icon fas icon="search" class="searchButton"></mdb-icon></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link">
-        <div class="btn-group " mdbDropdown>
-          <mdb-icon fas icon="user" mdbDropdownToggle class="userButton"></mdb-icon>
-          <div class="dropdown-menu dropdown-menu-right dropdown-primary unique-color">
-            <a class="dropdown-item text-white" href="#">
-              Estudiante 
-              <mdb-icon fas icon="user-graduate"></mdb-icon>
-            </a>
-            <a class="dropdown-item text-white" href="#">
-              Ser Profesor <mdb-icon fas icon="chalkboard-teacher"></mdb-icon>
-            </a>
-            <div class="divider dropdown-divider"></div>
-            <a class="dropdown-item text-white" href="https://unidiadmin.vercel.app">Administrativo </a>
-          </div>
-        </div>
-      </a>
-    </li>
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark red darken-4" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#">APPIN-APP</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>FORUM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>GIIDEA</a>
+      </li>
+
     </ul>
-      </links>
-    </mdb-navbar>
+    <!-- Links -->
+
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a class="nav-link">
+          <div class="btn-group" mdbDropdown>
+            <mdb-icon fas icon="user" mdbDropdownToggle></mdb-icon>
+            <div class="dropdown-menu dropdown-menu-right dropdown-primary">
+              <a class="dropdown-item" href="#">ADMINISTRACIÓN</a>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
   </header>
   <router-outlet></router-outlet>
   <!-- Chat Messeger -->
