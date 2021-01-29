@@ -1,0 +1,24 @@
+.cardGlobal{
+    max-width: 1400px;
+    text-align: center;
+    margin: auto;
+}
+.procedimientosCards{
+    max-width: 1200px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+@media (min-width: 1200px) {
+    .row{
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+  }
+
+.pictureProcedimiento{
+    max-width: 300px;
+    max-height: 550px;
+}

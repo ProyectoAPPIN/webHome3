@@ -1,0 +1,174 @@
+<mdb-card class="cardGlobal">
+<!-- Projects section v.3 -->
+<section class="my-5">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Procedimiento de uso para la aplicación móvil</h2>
+    <!-- Section description -->
+    <mdb-card class="procedimientosCards">
+    <!-- Grid row -->
+    <div class="row">  
+        <!-- Grid column -->
+        <div class="col-lg-7">
+          <!-- Grid row -->
+          <div class="row mb-3">
+            <div class="col-md-1 col-2">
+              <mdb-icon fas icon="arrow-alt-circle-down" size="2x" class="green-text"></mdb-icon>
+            </div>
+            <div class="col-md-11 col-10">
+              <h5 class="font-weight-bold mb-3">Descargar la aplicación</h5>
+              <p class="grey-text">Encuentra nuestra aplicación desde las principales appstore, sigue el siguiente link
+                para su respectiva descarga.
+              </p>
+              <a mdbBtn type="button" color="success" outline="true" mdbWavesEffect href="#" target="_Blank">Descargar App</a>
+            </div>
+          </div>
+          <!-- Grid row -->
+    
+          <!-- Grid row -->
+          <div class="row mb-3">
+            <div class="col-md-1 col-2">
+              <mdb-icon fas icon="user-check" size="2x" class="pink-text"></mdb-icon>
+            </div>
+            <div class="col-md-11 col-10">
+              <h5 class="font-weight-bold mb-3">Registrarse e ingresar</h5>
+              <p class="grey-text">
+                para el ingreso por primera vez a la aplicación móvil y su funcionalidad es necesario realizar
+                el registro de usuario, en el siguiente link te explicamos el proceso de registro.
+                luego para ingresar solo requiere del tipo de institución y su documento de identidad.
+              </p>
+              <button mdbBtn type="button" color="danger" outline="true" mdbWavesEffect (click)="basicModal.show()">Ver proceso de registro</button>
+            </div>
+          </div>
+          <!-- Grid row -->
+          <!--Modal de registro-->
+          <div mdbModal #basicModal="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+            <span aria-hidden="true">×</span>
+            </button>
+            <h4 class="modal-title w-100" id="myModalLabel">Proceso de registro</h4>
+            </div>
+            <div class="modal-body">
+              <!--Section: Products v.5-->
+        <section class="text-center pb-3 my-5">
+        <!--Carousel Wrapper-->
+        <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'"
+        [animation]="'slide'">
+        <!--First slide-->
+        <mdb-slide>
+          <picture class="pictureProcedimiento">
+            <source class="pictureProcedimiento" type="image/webp" srcset="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_v2xdru.webp" >
+            <source class="pictureProcedimiento" type="image/jpeg" srcset="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_zrzj0z.jpg">
+            <img class="pictureProcedimiento" src="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_zrzj0z.jpg">
+          </picture>
+        </mdb-slide>
+    <!--/First slide-->
+    <!--second slide-->
+    <mdb-slide>
+      <picture class="pictureProcedimiento">
+        <source class="pictureProcedimiento" type="image/webp" srcset="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_v2xdru.webp" >
+        <source class="pictureProcedimiento" type="image/jpeg" srcset="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_zrzj0z.jpg">
+        <img class="pictureProcedimiento" src="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_zrzj0z.jpg">
+      </picture>
+    </mdb-slide>
+<!--/second slide-->
+    <!--third slide-->
+    <mdb-slide>
+      <picture class="pictureProcedimiento">
+        <source class="pictureProcedimiento" type="image/webp" srcset="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_v2xdru.webp" >
+        <source class="pictureProcedimiento" type="image/jpeg" srcset="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_zrzj0z.jpg">
+        <img class="pictureProcedimiento" src="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_zrzj0z.jpg">
+      </picture>
+    </mdb-slide>
+<!--/third slide-->
+  </mdb-carousel>
+  <!--/.Carousel Wrapper-->
+</section>
+<!--Section: Products v.5-->
+            </div>
+            <div class="modal-footer">
+            <button type="button" mdbBtn color="secondary" class="waves-light" aria-label="Close" (click)="basicModal.hide()" mdbWavesEffect>Cerrar</button>
+            </div>
+            </div>
+            </div>
+            </div>
+    
+        </div>
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+        <div class="col-lg-5" >
+          <!--Image-->
+          <picture class="pictureProcedimiento">
+                <source class="pictureProcedimiento" type="image/webp" srcset="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_v2xdru.webp" >
+                <source class="pictureProcedimiento" type="image/jpeg" srcset="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_zrzj0z.jpg">
+                <img class="pictureProcedimiento" src="https://res.cloudinary.com/appin/image/upload/v1611947930/assetsAppin/procedimientos1img_zrzj0z.jpg">
+          </picture>
+        </div>
+        <!-- Grid column -->
+    
+      </div>
+      <!-- Grid row -->
+    </mdb-card>
+  
+    <hr class="my-5">
+    <mdb-card class="procedimientosCards">
+    <!-- Grid row -->
+    <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-lg-5 mb-lg-0 mb-5">
+          <!--Image-->
+          <picture class="pictureProcedimiento">
+            <source class="pictureProcedimiento" type="image/webp" srcset="https://res.cloudinary.com/appin/image/upload/v1611953551/assetsAppin/procedimientos2img_jjh5hy.webp" >
+            <source class="pictureProcedimiento" type="image/jpeg" srcset="https://res.cloudinary.com/appin/image/upload/v1611953551/assetsAppin/procedimientos2img_j4cdzu.jpg">
+            <img class="pictureProcedimiento" src="https://res.cloudinary.com/appin/image/upload/v1611953551/assetsAppin/procedimientos2img_j4cdzu.jpg">
+          </picture>
+        </div>
+        <!-- Grid column -->
+    
+        <!-- Grid column -->
+        <div class="col-lg-7">
+    
+          <!-- Grid row -->
+          <div class="row mb-3">
+            <div class="col-md-1 col-2">
+              <mdb-icon fas icon="book" size="2x" class="cyan-text"></mdb-icon>
+            </div>
+            <div class="col-md-11 col-10">
+              <h5 class="font-weight-bold mb-3">Datos necesarios para el ingreso</h5>
+              <p class="grey-text">En la entrada de cada campus universitario se procederá a la toma de temperatura
+                y oxigenación al usuario y este deberá ingresar los valores en la aplicación móvil al momento de ingresar
+                al campus. Esto permitirá tener un mejor control en sintomas del covid-19. 
+              </p>
+            </div>
+          </div>
+          <!-- Grid row -->
+    
+          <!-- Grid row -->
+          <div class="row mb-3">
+            <div class="col-md-1 col-2">
+              <mdb-icon fas icon="qrcode" size="2x" class="red-text"></mdb-icon>
+            </div>
+            <div class="col-md-11 col-10">
+              <h5 class="font-weight-bold mb-3">Lector de Qr</h5>
+              <p class="grey-text">Para ingresar a la universidad el usuario debe dar click en "leer código qr", dicho código
+                se encuentra en la entrada del campus y esto permite tomar los datos de usuario y relacionarlo con la fecha
+                y hora de ingreso.
+              </p>
+            </div>
+          </div>
+          <!-- Grid row -->
+    
+        </div>
+        <!-- Grid column -->
+    
+      </div>
+      <!-- Grid row -->
+    </mdb-card>
+  </section>
+  <!-- Projects section v.3 -->
+</mdb-card>

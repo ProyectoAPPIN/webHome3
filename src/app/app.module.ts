@@ -15,6 +15,8 @@ import { IngSistemasComponent } from './componentes/ing-sistemas/ing-sistemas.co
 import { CursosDestacadosComponent } from './componentes/cursos-destacados/cursos-destacados.component';
 import { ProfesoradoComponent } from './componentes/profesorado/profesorado.component';
 import { DiferenciasMercadoComponent } from './componentes/diferencias-mercado/diferencias-mercado.component';
+import { GuiaProcedimientosComponent } from './componentes/guia-procedimientos/guia-procedimientos.component';
+import { IntegrantesGiideaComponent } from './componentes/integrantes-giidea/integrantes-giidea.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { DiferenciasMercadoComponent } from './componentes/diferencias-mercado/d
     CursosDestacadosComponent,
     ProfesoradoComponent,
     DiferenciasMercadoComponent,
+    GuiaProcedimientosComponent,
+    IntegrantesGiideaComponent,
   ],
   imports: [
     BrowserModule,
